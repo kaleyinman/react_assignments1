@@ -19,15 +19,15 @@ function Footer() {
 function App() {
   return (
     <div>
-      <h2>Hello World!</h2>
+      <h2>Hi Chat</h2>
       {/* SimpleCard component with 2 props */}
       <SimpleCard
-        title="My First Card"
+        title="Kaley's First Card"
         content="This is a simple card component with title and content."
       />
       <SimpleCard
-        title="Another Card"
-        content="You can reuse this component multiple times with different props."
+        title="Kaley's Second Card"
+        content="I am reusing this component multiple times with different props. Yippee!"
       />
 
       {/* Footer component */}
