@@ -12,7 +12,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  border: 1px solid #f0f0f0;
+  border: 1px dotted #f0f0f0;
 }
 .project-card {
   max-width: 400px;
@@ -37,7 +37,7 @@
   padding: 1rem;
   margin-top: 2rem;
 
-  background-color: #ff293b;
+  background-color: #8cc7ff;
   border-top: 1px solid #ccc;
 
   font-size: 0.9rem;
