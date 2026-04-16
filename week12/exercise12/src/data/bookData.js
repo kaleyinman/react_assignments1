@@ -1,21 +1,21 @@
 export const books = [
 {
   id: 1,
-  title: "Book 1",
-  author: "Author 1",
-  bookArt: "https://via.placeholder.com/150",
-  description: "This is the first book."
+  title: "Frankenstein",
+  author: "Mary Shelley",
+  content: "This is the first book.",
+  bookArt: "images/FrankensteinCover.jpg",
 }, {
   id: 2,
-  title: "Book 2",
-  author: "Author 2",
-  bookArt: "https://via.placeholder.com/150",
-  description: "This is the second book."
+  title: "Dracula",
+  author: "Bram Stoker",
+  content: "This is the second book.",
+  bookArt: "images/Dracula_Book_Cover_1916.jpg",
 }, {
   id: 3,
-  title: "Book 3",
-  author: "Author 3",
-  bookArt: "https://via.placeholder.com/150",
-  description: "This is the third book."
+  title: "The Call of the Wild",
+  author: "Jack London",
+  content: "This is the third book.",
+  bookArt: "images/JackLondoncallwild.jpg",
 }
 ];
