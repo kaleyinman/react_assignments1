@@ -5,41 +5,39 @@
   margin: 0 auto; /* center the container horizontally */
   padding: 2rem; /* breathing room on all sides */
   text-align: center; /* center inline content like headings */
-}
-/* BLOCK: project (page-level container) */
-.project {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  border: 1px solid #f0f0f0;
-}
-.project-card {
-  max-width: 400px;
-  margin: 0 auto 1.5rem;
-
-  border: 1px solid #646cff;
-  border-radius: 0.5rem;
-  padding: 1rem;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-/* ELEMENT of project */
-.project__title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  background:rgb(255, 255, 255)
 }
 
-/* ELEMENT */
-/* BLOCK: app-footer */
-.app-footer {
-  text-align: center;
-  padding: 1rem;
+h1, h2, h3 {
+  font-family: var(--heading); /* use the heading font */
+  color: rgba(0, 0, 0, 0.61);
+  margin-bottom: 1rem; /* space below headings */
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive columns */
+  gap: 1.5rem; /* space between project cards */
   margin-top: 2rem;
+  justify-items: center; /* center cards in their grid cells */
+}
 
-  background-color: #e7e960;
-  border-top: 1px solid #ccc;
+.project-card {
+  border: 1px solid #413d3d; /* light border */
+  background-color: #fff; /* white background for cards */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+  padding: 1rem; /* inner padding */
+  text-align: center; /* left-align text inside cards */
+  width: 100%;
+  max-width: 300px; /* cap card width */
+  transition: box-shadow 0.3s ease; /* smooth shadow on hover */
+}
 
-  font-size: 0.9rem;
-  color: #555;
+.project-image {
+  object-fit: cover;
+  margin: 1rem auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
 }
