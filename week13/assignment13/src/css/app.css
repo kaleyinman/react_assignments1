@@ -1,0 +1,43 @@
+/* ── Root container ─────────────────────────────────────────
+   Centers the entire app and caps its width on wide screens  */
+#root {
+  max-width: 1280px; /* stop the layout from stretching too wide */
+  margin: 0 auto; /* center the container horizontally */
+  padding: 2rem; /* breathing room on all sides */
+  text-align: center; /* center inline content like headings */
+  background:rgb(255, 255, 255)
+}
+
+h1, h2, h3 {
+  font-family: var(--heading); /* use the heading font */
+  color: rgba(0, 0, 0, 0.61);
+  margin-bottom: 1rem; /* space below headings */
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive columns */
+  gap: 1.5rem; /* space between project cards */
+  margin-top: 2rem;
+  justify-items: center; /* center cards in their grid cells */
+}
+
+.project-card {
+  border: 1px solid #413d3d; /* light border */
+  background-color: #fff; /* white background for cards */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+  padding: 1rem; /* inner padding */
+  text-align: center; /* left-align text inside cards */
+  width: 100%;
+  max-width: 300px; /* cap card width */
+  transition: box-shadow 0.3s ease; /* smooth shadow on hover */
+}
+
+.project-image {
+  object-fit: cover;
+  margin: 1rem auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
