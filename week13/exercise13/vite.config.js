@@ -6,4 +6,3 @@ export default defineConfig({
   plugins: [react()],
   base: "/react_assignments1/week13/exercise13/",
 })
-  

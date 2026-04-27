@@ -5,11 +5,11 @@
   margin: 0 auto; /* center the container horizontally */
   padding: 2rem; /* breathing room on all sides */
   text-align: center; /* center inline content like headings */
-  background:rgb(255, 255, 255)
+  background:rgb(225, 235, 255)
 }
 
 h1, h2, h3 {
-  font-family: var(--heading); /* use the heading font */
+  font-family: 'Roboto Condensed', sans-serif;
   color: rgba(0, 0, 0, 0.61);
   margin-bottom: 1rem; /* space below headings */
 }
@@ -37,7 +37,26 @@ h1, h2, h3 {
 .project-image {
   object-fit: cover;
   margin: 1rem auto;
-  height: 200px;
-  width: 200px;
-  border-radius: 50px;
+  height: 250px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.toggle-button {
+  background-color: #439eff; /* blue button */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.toggle-button:hover {
+  background-color: #2e7bff; /* darker blue on hover */
+}
+
+.project-description {
+  margin-top: 1rem;
+  text-align: left;
+  color: #333;
 }
